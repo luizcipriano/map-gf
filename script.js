@@ -77,8 +77,8 @@ window.addEventListener('resize', checkScreenSize);
 
 // Function to calculate and update the countdown
 function updateCountdown() {
-  // Set the target date (December 17)
-  const targetDate = new Date('December 17, 2023 00:00:00').getTime();
+  // Set the target date (December 21)
+  const targetDate = new Date('December 21, 2023 00:00:00').getTime();
   
   // Get the current date and time
   const currentDate = new Date().getTime();
@@ -96,7 +96,7 @@ function updateCountdown() {
       // Update the HTML element with the countdown
       const countdownElement = document.getElementById('countdown');
       countdownElement.innerHTML = `
-          <p>Contagem regressiva até 17 de dezembro:</p>
+          <p>Contagem regressiva até 21 de dezembro:</p>
           <p>${days} dias ${hours} horas ${minutes} minutos ${seconds} segundos</p>
       `;
   } else {
